@@ -1,0 +1,226 @@
+.wrap h1{
+    margin-bottom:20px;
+}
+
+
+.orderout-dashboard{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:70vh;
+}
+
+.orderout-card{
+
+    width:600px;
+    background:#fff;
+    border-radius:10px;
+    padding:50px;
+    text-align:center;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+.orderout-logo{
+
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    background:#2271b1;
+    color:#fff;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin:0 auto 25px;
+}
+
+.orderout-logo .dashicons{
+    font-size:45px;
+    width:45px;
+    height:45px;
+}
+
+.orderout-card h1{
+    margin-bottom:15px;
+}
+
+.orderout-card .description{
+    color:#666;
+    font-size:15px;
+    margin-bottom:30px;
+}
+
+.connection-status{
+    margin:30px 0;
+}
+
+.status{
+
+    display:inline-block;
+    padding:10px 18px;
+    border-radius:30px;
+    font-weight:600;
+}
+
+.connected{
+
+    background:#d1fae5;
+    color:#15803d;
+}
+
+.disconnected{
+
+    background:#fee2e2;
+    color:#dc2626;
+}
+
+.orderout-actions{
+
+    margin-top:30px;
+}
+
+.button-hero{
+
+    padding:10px 40px !important;
+    font-size:16px !important;
+}
+
+#orderout-message{
+
+    margin-top:20px;
+}
+
+.orderout-category-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill,minmax(320px,1fr));
+    gap:24px;
+    margin-top:25px;
+}
+
+.category-card{
+    background:#fff;
+    border:1px solid #dcdcde;
+    border-radius:12px;
+    overflow:hidden;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
+
+.category-header{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    padding:14px 18px;
+    background:#2271b1;
+    color:#fff;
+}
+
+.category-header h3{
+    margin:0;
+    flex:1;
+    font-size:17px;
+    color:#fff;
+}
+
+.product-count{
+    font-size:12px;
+    background:rgba(255,255,255,.2);
+    padding:3px 8px;
+    border-radius:20px;
+}
+
+.product-list{
+    max-height:380px;
+    overflow-y:auto;
+}
+
+.menu-item-row{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+    padding:12px 16px;
+    border-bottom:1px solid #f1f1f1;
+    transition:.2s;
+}
+
+.menu-item-row:hover{
+    background:#f8fbff;
+}
+
+.menu-item-row:last-child{
+    border-bottom:none;
+}
+
+.item-left{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    flex:1;
+}
+
+.item-name{
+    font-size:14px;
+    font-weight:500;
+}
+
+.item-price{
+    color:#2271b1;
+    font-weight:600;
+}
+
+.submit-wrap{
+    margin-top:30px;
+    text-align:right;
+}
+.orderout-toolbar{
+    position:sticky;
+    top:32px; /* WordPress admin bar */
+    z-index:999;
+    background:#fff;
+    border:1px solid #ccd0d4;
+    border-radius:10px;
+    padding:20px;
+    margin:20px 0 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    gap:25px;
+    box-shadow:0 3px 10px rgba(0,0,0,.08);
+}
+
+.toolbar-fields{
+    display:flex;
+    flex:1;
+    gap:20px;
+}
+
+.toolbar-field{
+    flex:1;
+}
+
+.toolbar-field label{
+    display:block;
+    margin-bottom:6px;
+    font-weight:600;
+}
+
+.toolbar-field input,
+.toolbar-field textarea{
+    width:100%;
+}
+
+.toolbar-description{
+    flex:2;
+}
+
+.toolbar-actions{
+    display:flex;
+    align-items:flex-end;
+}
+
+.toolbar-actions .button{
+    min-width:180px;
+    height:42px;
+    font-size:15px;
+}
