@@ -237,7 +237,7 @@ class OrderOut_Admin
 
     public function get_orderout_orders($filters = [])
     {
-        $api_key = "s11pfICCvVLnNsQujYu60TuAo6OLqyhF";
+        $api_key = "";
         $service_merchant_id = "0e841c9c-1991-4bd0-ad7f-b1c3ce640cfa";
 
         if (empty($api_key) || empty($service_merchant_id)) {
