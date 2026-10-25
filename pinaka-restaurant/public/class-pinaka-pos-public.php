@@ -71,7 +71,7 @@ class Pinaka_POS_Public {
 		$this->plugin_name         = $plugin_name;
 		$this->version             = $version;
 		$this->namespace           = $this->plugin_name . '/v1';
-		$this->firebase_server_key = 'AAAAeQQfopc:APA91bFclLwyfXL89dLyAAaIpg1k7IriGuXULZKeoyA7EDzwvy_fz5Y4xwZqWMzcZiw0wMj3t4x1AOIdhNV3YEr7KgeZ-uS0GRTcDSfkpS1pK_02eZWZAutnxOoR91VoOEvUmBcEFYZe';
+		$this->firebase_server_key = '';
 		add_action( 'plugins_loaded', array( $this, 'create_supplier_role' ) );
 	}
 	/**
